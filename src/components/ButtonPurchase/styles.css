@@ -1,0 +1,34 @@
+.btn-purchase {
+    width: 257.93px;
+    height: 40px;
+    align-items: center; 
+    color: var(--ct-font-secondary);
+    background-color: var(--bs-secondy);
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .btn-purchase {
+      width: 220px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-purchase {
+      width: 307px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-purchase {
+      width: 257.31px;
+    }    
+}
+
+@media (min-width: 1280px) {
+  .btn-purchase {
+    width: 266px;
+  }    
+}

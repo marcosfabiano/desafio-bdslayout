@@ -1,0 +1,23 @@
+.catalog-container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: var(--bs-white);
+}
+
+.container-search {
+    padding: 23px 10px;
+}
+
+@media (min-width: 576px) {
+    .catalog-container {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .catalog-container {
+        padding: 0 150px;
+    }
+}

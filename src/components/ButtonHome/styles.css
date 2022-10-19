@@ -1,0 +1,9 @@
+.btn-home {
+    width: 174px;
+    height: 40px;
+    color: var(--ct-font-secondary);
+    background-color: var(--bs-secondy);
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}

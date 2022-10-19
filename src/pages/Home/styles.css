@@ -1,0 +1,159 @@
+.home-container {
+  width: 100%;
+  max-width: 999px;
+  height: 720px;
+  align-items: center;
+  padding: 20px 10px;
+  background: var(--bs-white);
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-card-top {
+  height: 365px;
+  background: var(--bs-secondy);
+  color: var(--bs-white);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-card-top img {
+  width: 244px;
+  height: 146px;
+  margin-top: 62px;
+}
+
+.home-card-top h6 {
+  width: 260px;
+  font-size: 22px;
+  margin-top: 35px;
+}
+
+.home-card-top p {
+  width: 260px;
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+.home-card-botton {
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  background: var(--bs-tertiary);
+  margin-top: 21px;
+  padding-top: 28px;
+  border-radius: 10px;
+}
+
+.home-card-botton p {
+  font-size: 18px;
+  margin: 9px 0 0 0;
+  color: var(--ct-font-tertiary);
+ }
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 30px 20px;
+  }
+
+  .home-card-top img {
+    width: 333px;
+    height: 199px;
+    margin-top: 22px;
+  }
+
+  .home-card-top h6 {
+    width: 440px;
+    font-size: 36px;
+    margin-top: 19px;
+  }
+
+  .home-card-top p {
+    width: 420px;
+    font-size: 18px;
+    margin: 0%;
+  }
+
+  .home-card-botton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    padding: 42px 0 41px 85px;
+  }
+
+  .home-card-botton p {
+    margin: 0 0 0 16px;
+   }
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    height: 1024px;
+  }
+
+  .home-card-top {
+    height: 475px;
+  }
+
+  .home-card-top img {
+    margin-top: 79px;
+  }
+
+  .home-card-top h6 {
+    margin-top: 37px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    height: 1200px;
+  }
+
+  .home-card-top {
+    height: 579px;
+  }
+
+  .home-card-top img {
+    width: 455px;
+    height: 272px;
+    margin-top: 82px;
+  }
+
+  .home-card-top h6 {
+    margin-top: 17px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    max-width: 1280px;
+    height: 720px;
+    padding-left: 150px;
+  }
+
+  .home-card-top {
+    width: 979px;
+    height: 365px;
+    flex-direction: row-reverse;
+    padding: 140px 78px 140px 85px;
+    text-align: left;
+  }
+
+  .home-card-top img {
+    width: 333px;
+    height: 199px;
+    margin: 0 0 0 63px;
+  }
+
+  .home-card-botton {
+    width: 979px;
+  }
+}
